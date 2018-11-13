@@ -1,5 +1,5 @@
 #include QMK_KEYBOARD_H
-#include "led.h"
+#include "ergodox_ez.h"
 #include "mousekey.h"
 #include "debug.h"
 #include "action_layer.h"
@@ -31,7 +31,6 @@
 enum custom_keycodes {
   PLACEHOLDER = SAFE_RANGE, // can always be here
   EPRM,
-  VRSN,
   RGB_SLD
 };
 
